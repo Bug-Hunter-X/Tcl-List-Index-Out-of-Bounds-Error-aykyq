@@ -1,0 +1,1 @@
+proc get_element {list index} {  if {$index < 0} {    return -code error "Negative index not allowed"  }  if {$index >= [llength $list]} {    return -code error "Index out of range"  }  return [lindex $list $index]}
