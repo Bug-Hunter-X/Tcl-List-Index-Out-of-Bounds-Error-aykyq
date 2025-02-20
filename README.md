@@ -1,0 +1,2 @@
+# Tcl List Index Out of Bounds
+This example demonstrates a common error in Tcl when working with lists: accessing elements outside the valid index range.  The provided `get_element` procedure demonstrates how to handle this correctly.
